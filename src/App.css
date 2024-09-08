@@ -1,14 +1,16 @@
 .app {
+  /* Centering the main app content with flexbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #f0f0f0; /* Changed from black to light grey */
+  background-color: #f0f0f0; /* Light grey background color */
 }
 
 .container {
+  /* Styling for the input container */
   background-color: #FAF9FA;
   width: 519px;
   border-radius: 8px;
@@ -16,32 +18,38 @@
 }
 
 .heading_text {
+  /* Styling for heading text */
   font-size: 10px;
   font-weight: 400;
 }
 
 .heading_two {
+  /* Padding below the heading */
   padding-top: 5px;
 }
 
 .total_amount_card {
+  /* Card displaying the total simple interest */
   width: 445px;
   height: 138px;
-  background-color: #D6FF58;
+  background-color: #D6FF58; /* Light green background */
   margin-top: 22px;
 }
 
 .card_text {
+  /* Padding inside the card */
   padding-top: 40px;
 }
 
 .total_amount_heading {
+  /* Styling for the total interest amount text */
   font-size: 30px;
   font-weight: 800;
   text-align: center;
 }
 
 .total_amount_para {
+  /* Styling for the text below the total amount */
   font-size: 12px;
   padding-top: 5px;
   text-align: center;
@@ -49,24 +57,29 @@
 }
 
 .input_area {
+  /* Margin for the input fields container */
   margin-top: 40px;
 }
 
 .input_field {
+  /* Margin between input fields */
   margin-top: 30px;
   width: 445px;
 }
 
 #outlined-basic {
+  /* Input field width */
   width: 410px;
 }
 
 .button_collection {
+  /* Margin for the button area */
   margin-top: 61px;
   margin-bottom: 1rem;
 }
 
 .btn_one {
+  /* Button styling */
   background-color: #1F1F1F;
   width: 200px;
   height: 75px;
